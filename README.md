@@ -26,11 +26,11 @@ Express Server with intent Exit/ Exit Popup frontend
 - Using `sequelize-typescript` and building decorated Models
 
 ### Current Routes
-| Method         | Endpoint                        | Class method                     |
-| -------------- | ------------------------------- | -------------------------------- |
-| GET            | /api/subscriptions/mailing-list | SubscriptionCtrl.getMaiingList() |
-| POST           | /api/subscriptions/             | SubscriptionCtrl.subscribe()     |
-| GET            | /api/healthCheck                |                                  |
+| Method         | Endpoint                        | Class method                      |
+| -------------- | ------------------------------- | --------------------------------- |
+| GET            | /api/subscriptions/mailing-list | SubscriptionCtrl.getMailingList() |
+| POST           | /api/subscriptions/             | SubscriptionCtrl.subscribe()      |
+| GET            | /api/healthCheck                |                                   |
 
 ### Requirements
 - NodeJS > v10.18

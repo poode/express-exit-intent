@@ -1,0 +1,58 @@
+{
+  "name": "exit-intent",
+  "version": "1.0.0",
+  "description": "An exit intent form that is displayed before the user is about to leave the web page to collect the user email.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "rm -rf frontend/dist && webpack --mode production --config webpack/webpack.config.js --progress --profile",
+    "serve": "webpack-dev-server --mode development --config webpack/webpack.dev.server.config.js --display-error-details",
+    "test": "jest --c jest.config.frontend.js --no-cache",
+    "lint:fix": "tslint --project tsconfig.frontend.json --fix"
+  },
+  "keywords": [
+    "TypeScript",
+    "Sass",
+    "WebPack",
+    "Jest",
+    "Istanbul"
+  ],
+  "author": "Mouneer",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/jquery": "^3.3.34",
+    "@types/js-cookie": "^2.2.5",
+    "@types/node": "^10.12.1",
+    "@types/request": "^2.48.0",
+    "@types/webpack-env": "^1.13.6",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^1.0.1",
+    "fs-extra": "^7.0.0",
+    "inline-css": "^2.4.1",
+    "jest": "^23.6.0",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "jsdom": "11.10.0",
+    "jsdom-global": "^3.0.2",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.4",
+    "node-style": "^2.0.0",
+    "path": "^0.12.7",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.1.5",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4",
+    "webpack-stream": "^5.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.1",
+    "winston": "^3.2.1"
+  }
+}

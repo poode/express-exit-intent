@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "baseUrl": "./",
+    "declaration": true,
+    "types": ["reflect-metadata", "node", "sequelize-typescript"],
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "noImplicitAny": true
+  }
+}

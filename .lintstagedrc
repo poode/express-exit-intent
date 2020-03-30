@@ -1,0 +1,10 @@
+{
+  "src/**/*.ts": [
+    "tslint --project tsconfig.server.js --fix",
+    "git add"
+  ],
+  "frontend/src/**/*.ts": [
+    "tslint --project frontend/tsconfig.frontend.js --fix",
+    "git add"
+  ]
+}
